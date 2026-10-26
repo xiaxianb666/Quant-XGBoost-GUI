@@ -1,0 +1,24 @@
+{
+  "experiments_per_run": 1,
+  "max_experiments_per_session": 0,
+  "max_experiment_retries": 2,
+  "retry_wait_s": 20,
+  "max_consecutive_failures": 5,
+  "universe_refresh_hours": 12,
+  "idle_sleep_s": 30,
+  "pause_poll_s": 2,
+  "max_consecutive_universe_failures": 2,
+  "base_budget": {
+    "model_trials": 8,
+    "feature_trials": 12,
+    "strategy_trials": 24,
+    "model_seeds": 3
+  },
+  "rolling_windows": 3,
+  "rolling_seeds": 2,
+  "min_train_rows_rolling": 120,
+  "train_years": 5,
+  "reserved_test_days": 60,
+  "reserved_test_start": "",
+  "experiment_log_max_rows": 20000
+}

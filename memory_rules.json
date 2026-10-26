@@ -1,0 +1,15 @@
+{
+  "warn_avail_ratio": 0.15,
+  "danger_avail_ratio": 0.08,
+  "warn_avail_mb_min": 450,
+  "danger_avail_mb_min": 280,
+  "proc_warn_mb": 900,
+  "proc_danger_mb": 1400,
+  "proc_warn_ratio": 0.25,
+  "proc_danger_ratio": 0.4,
+  "sample_interval_s": 4.0,
+  "log_interval_s": 15.0,
+  "leak_window": 8,
+  "leak_growth_mb": 200.0,
+  "log_max_bytes": 2097152
+}

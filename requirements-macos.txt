@@ -1,0 +1,12 @@
+# macOS 运行依赖（项目内 .venv 使用；不要安装到全局 Python）
+# 基础 GUI 使用系统自带 tkinter；以下为训练/数据/研究模块运行所需。
+numpy==2.0.2
+pandas==2.3.3
+scipy==1.13.1
+scikit-learn==1.6.1
+xgboost==2.1.4
+matplotlib==3.9.4
+akshare==1.18.88
+psutil==7.2.2
+joblib==1.5.3
+pillow==11.3.0

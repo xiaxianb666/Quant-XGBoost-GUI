@@ -1,0 +1,29 @@
+{
+  "include_main_sh": true,
+  "include_main_sz": true,
+  "include_gem": true,
+  "include_star": false,
+  "include_bj": false,
+  "exclude_st": true,
+  "exclude_delisting": true,
+  "lookback_days": 420,
+  "min_rows": 220,
+  "max_missing_ratio": 0.1,
+  "max_zero_vol_ratio": 0.25,
+  "min_listed_days": 250,
+  "max_stale_days": 30,
+  "min_avg_amount_wan": 2000,
+  "min_interval_hours": 6,
+  "max_stocks_per_cycle": 200,
+  "weights": {
+    "quality": 3.0,
+    "samples": 1.0,
+    "liquidity": 1.5,
+    "gap": 2.0,
+    "fresh": 1.0,
+    "cost": 0.6,
+    "fail": 1.5
+  },
+  "fetch_retries": 3,
+  "universe_retries": 3
+}
